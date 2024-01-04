@@ -21,7 +21,7 @@ function App() {
   }, []);
   return (
     <xu>
-      <div id="navbar" style={{ top: navbarVisible ? '0' : '-50px', display: 'flex', justifyContent: 'center' }}>
+      <div id="navbar" style={{ top: navbarVisible ? '0' : '-100px', display: 'flex', justifyContent: 'center' }}>
 
         <nav className='topp' style={{ top: navbarVisible ? '0' : '-100px', position: 'fixed', width: '45.6%', borderRadius: '10px', marginTop: '15px' }}>
           <ul style={{ listStyle: 'none', display: 'flex', justifyContent:'space-between'}}>
