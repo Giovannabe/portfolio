@@ -27,9 +27,9 @@ function App() {
           <ul style={{ listStyle: 'none', display: 'flex', justifyContent:'space-between'}}>
             <li id='iconnav'><a href="#section1"><img src='imagens/foto.jpg' /></a></li>
             <div style={{display:'flex'}}>
-              <li className='iconnavs'><a href="#section1"><img src='imagens/github.png' /><p>Github</p></a></li>
+              <li className='iconnavs'><a href="https://github.com/Giovannabe" target='blank'><img src='imagens/github.png' /><p>Github</p></a></li>
               <li className='iconnavs'><a href="#section1"><img src='imagens/linkedin.png' /><p> Linkedin</p></a></li>
-              <li className='iconnavs'><a href="#section1"><img src='imagens/e-mail.png' /><p>E-mail</p></a></li>
+              <li className='iconnavs'><a href="#section1"><img src='imagens/e-mail.png' /><p>Email</p></a></li>
             </div>
           </ul>
         </nav>
