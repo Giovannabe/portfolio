@@ -23,12 +23,12 @@ function App() {
     <xu>
       <div id="navbar" style={{ top: navbarVisible ? '0' : '-100px', display: 'flex', justifyContent: 'center' }}>
 
-        <nav className='topp' style={{ top: navbarVisible ? '0' : '-100px', position: 'fixed', width: '45.6%', borderRadius: '10px', marginTop: '15px' }}>
-          <ul style={{ listStyle: 'none', display: 'flex', justifyContent:'space-between'}}>
+        <nav className='topp' style={{ top: navbarVisible ? '0' : '-100px', position: 'fixed', borderRadius: '10px', marginTop: '15px' }}>
+          <ul style={{ listStyle: 'none', display: 'flex', justifyContent: 'space-between' }}>
             <li id='iconnav'><a href="#section1"><img src='imagens/foto.jpg' /></a></li>
-            <div style={{display:'flex'}}>
+            <div style={{ display: 'flex' }}>
               <li className='iconnavs'><a href="https://github.com/Giovannabe" target='blank'><img src='imagens/github.png' /><p>Github</p></a></li>
-              <li className='iconnavs'><a href="#section1"><img src='imagens/linkedin.png' /><p> Linkedin</p></a></li>
+              <li className='iconnavs'><a href="https://www.linkedin.com/in/giovanna-eleodora-beraldo-7759802a2/" target='blank'><img src='imagens/linkedin.png' /><p> Linkedin</p></a></li>
               <li className='iconnavs'><a href="#section1"><img src='imagens/e-mail.png' /><p>Email</p></a></li>
             </div>
           </ul>
@@ -52,7 +52,7 @@ function App() {
 
         <div className='icones'>
           <a href='https://github.com/Giovannabe' target='_blank'><img src='/imagens/github.png' /></a>
-          <a href='https://github.com/Giovannabe' target='_blank'><img src='/imagens/linkedin.png' /></a>
+          <a href='https://www.linkedin.com/in/giovanna-eleodora-beraldo-7759802a2/' target='_blank'><img src='/imagens/linkedin.png' /></a>
           <a href='https://github.com/Giovannabe' target='_blank'><img src='/imagens/e-mail.png' /></a>
 
         </div>

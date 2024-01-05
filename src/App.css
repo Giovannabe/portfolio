@@ -8,6 +8,7 @@ body {
 
 .topp {
   background-color: hwb(0 19% 81% / 0.63);
+  width: 45.6%;
 }
 
 #iconnav img {
@@ -130,4 +131,17 @@ body {
 
 footer {
   text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+
+  .topp{
+    width: 95%;
+  }
+  
+  .primeirocont{
+    width: 100%;
+  }
+
+
 }
